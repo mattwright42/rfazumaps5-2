@@ -1,0 +1,257 @@
+@charset "UTF-8";
+/* Scss Document */
+/* Scss Document */
+/*▼色▼*/
+/*▼BOX▼*/
+/*▼文字▼*/
+/*▼FLEX系▼*/
+/*▼グリッド系▼*/
+/*▼基本設定▼*/
+:root {
+  /*****書き方「--vh: 100vh;」*****/
+  /*****出し方「border: 2px solid var(--red);」*****/
+  --vh: 100vh; }
+
+/*▼基礎▼*/
+html {
+  font-size: 62.5%; }
+
+/*------↓WEBフォントの表示を読み込み終わってからにする↓------*/
+html {
+  visibility: hidden;
+  opacity: 0; }
+
+html.wf-active, html.loading-delay {
+  visibility: visible;
+  animation: html 0.15s ease-out 0.4s 1 forwards; }
+
+@keyframes html {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+body {
+  font-size: 1.6rem;
+  letter-spacing: 0.015em;
+  font-display: swap;
+  line-height: 1.615;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  color: #191919;
+  font-weight: 500;
+  font-family: YakuHanMPs, zen-old-mincho, sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: #ebe4d7;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+body {
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none; }
+  body::-webkit-scrollbar {
+    display: none; }
+
+body.noscroll {
+  overflow-y: hidden; }
+
+#box {
+  overflow: hidden; }
+
+/*▼基本▼*/
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+h1, h2, h3, h4, h5, h6, h7, h8, h9 {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  box-shadow: none;
+  font-size: 1.6rem;
+  font-weight: normal;
+  line-height: 1.35; }
+
+p {
+  line-height: inherit;
+  margin-top: 0;
+  margin-bottom: 1.25em; }
+  p:last-child {
+    margin-bottom: 0; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0; }
+
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+ul, ol, li, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+  font-weight: inherit; }
+
+ul.list, ol.list {
+  margin-bottom: 1.25em; }
+  ul.list li, ol.list li {
+    margin-left: 1.5em; }
+
+.li-nosp {
+  padding-left: 1.5em; }
+
+figure {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+a {
+  color: #191919;
+  transition: 0.4s; }
+
+a:link, a:visited {
+  color: #191919;
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 0, 0, 0.5); }
+
+a:hover {
+  color: #191919;
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 0, 0, 0); }
+
+.ta_l {
+  text-align: left; }
+
+.ta_c {
+  text-align: center; }
+
+.ta_r {
+  text-align: right; }
+
+.ta_j {
+  text-align: justify; }
+
+/*▼文字▼*/
+.f-min {
+  font-family: YakuHanMPs, zen-old-mincho, sans-serif; }
+
+/*▼ディスプレイ▼*/
+i {
+  display: inline-block;
+  font-style: normal; }
+
+.bl {
+  display: block; }
+
+.ib {
+  display: inline-block; }
+
+.non {
+  display: none; }
+
+.dis-sp-l {
+  display: none; }
+
+.dis-sp-b {
+  display: none; }
+
+.dis-sp-lb {
+  display: none; }
+
+.clear {
+  clear: both; }
+
+/*▼画像▼*/
+img.ov, .ov img, a img {
+  transition: 0.4s; }
+
+img.ov:hover, .ov img:hover, a:hover img {
+  opacity: 0.75; }
+
+a img {
+  outline: none; }
+
+img {
+  outline: none; }
+
+/*▼404系▼*/
+.box404 {
+  margin: 0 1.5em;
+  height: calc(100vh - 400px);
+  min-height: 175px;
+  max-height: 475px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .box404 div:nth-child(1) {
+    margin-bottom: 1.5em; }
+
+.block20 {
+  margin-top: 200px; }
+
+.block15 {
+  margin-top: 150px; }
+
+.block10 {
+  margin-top: 100px; }
+
+.block07 {
+  margin-top: 75px; }
+
+.block05 {
+  margin-top: 50px; }
+
+.block02 {
+  margin-top: 25px; }
+
+/*▼マーカー▼*/
+.marker_y {
+  background: linear-gradient(transparent 60%, yellow 60%); }
+
+.marker_b {
+  background: linear-gradient(transparent 60%, #5ad7ff 60%); }
+
+.marker_g {
+  background: linear-gradient(transparent 60%, #a0eb96 60%); }
+
+.marker_p {
+  background: linear-gradient(transparent 60%, #ffbec8 60%); }
+
+/*---------------------------------------------------------------------------BP1920*/
+/*---------------------------------------------------------------------------BP1600*/
+/*---------------------------------------------------------------------------BP1280*/
+/*---------------------------------------------------------------------------BP1024*/
+/*---------------------------------------------------------------------------BP960*/
+/*---------------------------------------------------------------------------BP896*/
+/*---------------------------------------------------------------------------BP768*/
+/*---------------------------------------------------------------------------BP620*/
+@media (max-width: 620px) {
+  html {
+    /*font-size: 54.69%;*/
+    font-size: 58.59%;
+    line-height: 1.5em; }
+
+  .dis-sp-lb {
+    display: inline-block; } }
+/*---------------------------------------------------------------------------BP480*/

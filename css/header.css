@@ -1,0 +1,196 @@
+@charset "UTF-8";
+/* Scss Document */
+/* Scss Document */
+/*▼色▼*/
+/*▼BOX▼*/
+/*▼文字▼*/
+/*▼FLEX系▼*/
+/*▼グリッド系▼*/
+body {
+  padding-top: 11rem;
+  /**共通**/ }
+
+.header_main {
+  border-top: 1rem solid #9b843d;
+  z-index: 9000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 11rem;
+  /**共通**/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 5%;
+  line-height: 1;
+  border-bottom: 1px solid #d2c497;
+  background-color: #f4f2ef; }
+  .header_main > span {
+    font-size: 2.4rem;
+    font-weight: 800;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center; }
+    .header_main > span a {
+      display: inline-block;
+      padding: 0 0.15em;
+      text-decoration: none; }
+      .header_main > span a:hover {
+        color: #b9a264; }
+    .header_main > span::after {
+      content: '';
+      display: block;
+      width: 10px;
+      height: 10px;
+      background: url("../img/ic01.svg") center/contain no-repeat;
+      margin: 4px 4rem 0; }
+    .header_main > span:last-of-type::after {
+      content: none; }
+
+.menu_btn_box {
+  cursor: pointer;
+  display: none;
+  z-index: 9400;
+  height: 10rem;
+  width: 10rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 4rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+  /*transition: 0.4s;*/ }
+  .menu_btn_box.off {
+    background-image: url("../img/btn_menu_open.svg"); }
+  .menu_btn_box.on {
+    background-image: url("../img/btn_menu_close.svg"); }
+
+.menu_blank {
+  z-index: 9200;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100lvh;
+  background-color: #b9a264;
+  justify-content: center; }
+  .menu_blank > .box {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 12.5rem; }
+  .menu_blank span {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    .menu_blank span a {
+      color: white;
+      font-size: 3.2rem;
+      text-decoration: none;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      text-decoration: none;
+      margin: 1em;
+      position: relative;
+      padding-bottom: 0.3em; }
+      .menu_blank span a::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: rgba(255, 255, 255, 0);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: 0.1s; }
+      .menu_blank span a:hover::after {
+        background-color: white; }
+    .menu_blank span::after {
+      content: '';
+      display: block;
+      width: 1.5rem;
+      height: 1.5rem;
+      background: url("../img/ic01.svg") center/cover no-repeat; }
+    .menu_blank span:last-child::after {
+      content: none; }
+  .menu_blank.off {
+    display: none;
+    opacity: 0; }
+  .menu_blank.on {
+    display: flex;
+    opacity: 1; }
+
+/*
+body {
+	&.page00 .header_main a.p00 ,
+	&.page01 .header_main a.p01 ,
+	&.page02 .header_main a.p02 ,
+	&.page03 .header_main a.p03 {pointer-events: none; color: $col4;}
+}
+*/
+.header_sub {
+  line-height: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  padding: 2.5rem 5%;
+  background-color: #f4f2ef; }
+  .header_sub a {
+    color: #9b843d;
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 0.5em 1em;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 100rem; }
+    .header_sub a:hover {
+      color: #68541e;
+      background-color: #d2c497; }
+
+/*---------------------------------------------------------------------------BP1920*/
+/*---------------------------------------------------------------------------BP1600*/
+/*---------------------------------------------------------------------------BP1280*/
+/*---------------------------------------------------------------------------BP1024*/
+/*---------------------------------------------------------------------------BP960*/
+/*---------------------------------------------------------------------------BP896*/
+/*---------------------------------------------------------------------------BP768*/
+@media (max-width: 768px) {
+  body.page00 .header_main > span:not(.p00) {
+    display: none; }
+  body.page01 .header_main > span:not(.p01) {
+    display: none; }
+  body.page02 .header_main > span:not(.p02) {
+    display: none; }
+  body.page03 .header_main > span:not(.p03) {
+    display: none; }
+
+  .header_main {
+    height: 9rem; }
+    .header_main > span {
+      pointer-events: none; }
+      .header_main > span::after {
+        content: none; }
+
+  .header_sub {
+    padding: 2.0rem 5%;
+    gap: 1.2rem; }
+    .header_sub > span {
+      font-size: 1.8rem; }
+
+  .menu_btn_box {
+    display: flex; }
+
+  body {
+    padding-top: 9rem; }
+
+  .menu_btn_box {
+    height: 8rem;
+    width: 8rem; } }
+/*---------------------------------------------------------------------------BP620*/
+/*---------------------------------------------------------------------------BP480*/

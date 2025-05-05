@@ -1,0 +1,476 @@
+@charset "UTF-8";
+/* Scss Document */
+/* Scss Document */
+/*▼色▼*/
+/*▼BOX▼*/
+/*▼文字▼*/
+/*▼FLEX系▼*/
+/*▼グリッド系▼*/
+.box10000 {
+  width: 100%; }
+
+.box100 {
+  width: 100%;
+  margin: 0;
+  padding-left: 5%;
+  padding-right: 5%; }
+
+.box19 {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto 0 auto;
+  padding-left: calc(1920px * 0.05 );
+  padding-right: calc(1920px * 0.05 ); }
+
+.box16 {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto 0 auto;
+  padding-left: calc(1600px * 0.05 );
+  padding-right: calc(1600px * 0.05 ); }
+
+.box12 {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto 0 auto;
+  padding-left: calc(1280px * 0.05 );
+  padding-right: calc(1280px * 0.05 ); }
+
+.box10 {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto 0 auto;
+  padding-left: calc(1024px * 0.05 );
+  padding-right: calc(1024px * 0.05 ); }
+
+.box09 {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto 0 auto;
+  padding-left: calc(960px * 0.05 );
+  padding-right: calc(960px * 0.05 ); }
+
+.box08 {
+  width: 100%;
+  max-width: 896px;
+  margin: 0 auto 0 auto;
+  padding-left: calc(896px * 0.05 );
+  padding-right: calc(896px * 0.05 ); }
+
+.box07 {
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto 0 auto;
+  padding-left: calc(768px * 0.05 );
+  padding-right: calc(768px * 0.05 ); }
+
+.box06 {
+  width: 100%;
+  max-width: 620px;
+  margin: 0 auto 0 auto;
+  padding-left: calc(620px * 0.05 );
+  padding-right: calc(620px * 0.05 ); }
+
+.box04 {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto 0 auto;
+  padding-left: calc(480px * 0.05 );
+  padding-right: calc(480px * 0.05 ); }
+
+.box19no {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto 0 auto; }
+
+.box16no {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto 0 auto; }
+
+.box12no {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto 0 auto; }
+
+.box10no {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto 0 auto; }
+
+.box09no {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto 0 auto; }
+
+.box08no {
+  width: 100%;
+  max-width: 896px;
+  margin: 0 auto 0 auto; }
+
+.box07no {
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto 0 auto; }
+
+.box06no {
+  width: 100%;
+  max-width: 620px;
+  margin: 0 auto 0 auto; }
+
+.box04no {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto 0 auto; }
+
+.box19l {
+  width: calc( ( 100% - 1920px) / 2 + 1920px);
+  min-width: 1920px;
+  float: left;
+  padding-right: calc(1920px * 0.05 ); }
+
+.box19r {
+  width: calc( ( 100% - 1920px) / 2 + 1920px);
+  min-width: 1920px;
+  float: right;
+  padding-left: calc(1920px * 0.05 ); }
+
+.box16l {
+  width: calc( ( 100% - 1600px) / 2 + 1600px);
+  min-width: 1600px;
+  float: left;
+  padding-right: calc(1600px * 0.05 ); }
+
+.box16r {
+  width: calc( ( 100% - 1600px) / 2 + 1600px);
+  min-width: 1600px;
+  float: right;
+  padding-left: calc(1600px * 0.05 ); }
+
+.box12l {
+  width: calc( ( 100% - 1280px) / 2 + 1280px);
+  min-width: 1280px;
+  float: left;
+  padding-right: calc(1280px * 0.05 ); }
+
+.box12r {
+  width: calc( ( 100% - 1280px) / 2 + 1280px);
+  min-width: 1280px;
+  float: right;
+  padding-left: calc(1280px * 0.05 ); }
+
+.box10l {
+  width: calc( ( 100% - 1024px) / 2 + 1024px);
+  min-width: 1024px;
+  float: left;
+  padding-right: calc(1024px * 0.05 ); }
+
+.box10r {
+  width: calc( ( 100% - 1024px) / 2 + 1024px);
+  min-width: 1024px;
+  float: right;
+  padding-left: calc(1024px * 0.05 ); }
+
+.box09l {
+  width: calc( ( 100% - 960px) / 2 + 960px);
+  min-width: 960px;
+  float: left;
+  padding-right: calc(960px * 0.05 ); }
+
+.box09r {
+  width: calc( ( 100% - 960px) / 2 + 960px);
+  min-width: 960px;
+  float: right;
+  padding-left: calc(960px * 0.05 ); }
+
+.box08l {
+  width: calc( ( 100% - 896px) / 2 + 896px);
+  min-width: 896px;
+  float: left;
+  padding-right: calc(896px * 0.05 ); }
+
+.box08r {
+  width: calc( ( 100% - 896px) / 2 + 896px);
+  min-width: 896px;
+  float: right;
+  padding-left: calc(896px * 0.05 ); }
+
+.box07l {
+  width: calc( ( 100% - 768px) / 2 + 768px);
+  min-width: 768px;
+  float: left;
+  padding-right: calc(768px * 0.05 ); }
+
+.box07r {
+  width: calc( ( 100% - 768px) / 2 + 768px);
+  min-width: 768px;
+  float: right;
+  padding-left: calc(768px * 0.05 ); }
+
+.box06l {
+  width: calc( ( 100% - 620px) / 2 + 620px);
+  min-width: 620px;
+  float: left;
+  padding-right: calc(620px * 0.05 ); }
+
+.box06r {
+  width: calc( ( 100% - 620px) / 2 + 620px);
+  min-width: 620px;
+  float: right;
+  padding-left: calc(620px * 0.05 ); }
+
+.box04l {
+  width: calc( ( 100% - 480px) / 2 + 480px);
+  min-width: 480px;
+  float: left;
+  padding-right: calc(480px * 0.05 ); }
+
+.box04r {
+  width: calc( ( 100% - 480px) / 2 + 480px);
+  min-width: 480px;
+  float: right;
+  padding-left: calc(480px * 0.05 ); }
+
+.box100no {
+  width: 100%;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0; }
+
+.box19lno {
+  width: calc( ( 100% - 1920px) / 2 + 1920px);
+  min-width: 1920px;
+  float: left; }
+
+.box19rno {
+  width: calc( ( 100% - 1920px) / 2 + 1920px);
+  min-width: 1920px;
+  float: right; }
+
+.box16lno {
+  width: calc( ( 100% - 1600px) / 2 + 1600px);
+  min-width: 1600px;
+  float: left; }
+
+.box16rno {
+  width: calc( ( 100% - 1600px) / 2 + 1600px);
+  min-width: 1600px;
+  float: right; }
+
+.box12lno {
+  width: calc( ( 100% - 1280px) / 2 + 1280px);
+  min-width: 1280px;
+  float: left; }
+
+.box12rno {
+  width: calc( ( 100% - 1280px) / 2 + 1280px);
+  min-width: 1280px;
+  float: right; }
+
+.box10lno {
+  width: calc( ( 100% - 1024px) / 2 + 1024px);
+  min-width: 1024px;
+  float: left; }
+
+.box10rno {
+  width: calc( ( 100% - 1024px) / 2 + 1024px);
+  min-width: 1024px;
+  float: right; }
+
+.box09lno {
+  width: calc( ( 100% - 960px) / 2 + 960px);
+  min-width: 960px;
+  float: left; }
+
+.box09rno {
+  width: calc( ( 100% - 960px) / 2 + 960px);
+  min-width: 960px;
+  float: right; }
+
+.box08lno {
+  width: calc( ( 100% - 896px) / 2 + 896px);
+  min-width: 896px;
+  float: left; }
+
+.box08rno {
+  width: calc( ( 100% - 896px) / 2 + 896px);
+  min-width: 896px;
+  float: right; }
+
+.box07lno {
+  width: calc( ( 100% - 768px) / 2 + 768px);
+  min-width: 768px;
+  float: left; }
+
+.box07rno {
+  width: calc( ( 100% - 768px) / 2 + 768px);
+  min-width: 768px;
+  float: right; }
+
+.box06lno {
+  width: calc( ( 100% - 620px) / 2 + 620px);
+  min-width: 620px;
+  float: left; }
+
+.box06rno {
+  width: calc( ( 100% - 620px) / 2 + 620px);
+  min-width: 620px;
+  float: right; }
+
+.box04lno {
+  width: calc( ( 100% - 480px) / 2 + 480px);
+  min-width: 480px;
+  float: left; }
+
+.box04rno {
+  width: calc( ( 100% - 480px) / 2 + 480px);
+  min-width: 480px;
+  float: right; }
+
+.box19lnopad {
+  width: calc( ( 100% - 1920px) / 2 + 1920px - 5% );
+  min-width: 1920px;
+  float: left; }
+
+.box19rnopad {
+  width: calc( ( 100% - 1920px) / 2 + 1920px - 5% );
+  min-width: 1920px;
+  float: right; }
+
+.box16lnopad {
+  width: calc( ( 100% - 1600px) / 2 + 1600px - 5% );
+  min-width: 1600px;
+  float: left; }
+
+.box16rnopad {
+  width: calc( ( 100% - 1600px) / 2 + 1600px - 5% );
+  min-width: 1600px;
+  float: right; }
+
+.box12lnopad {
+  width: calc( ( 100% - 1280px) / 2 + 1280px - 5% );
+  min-width: 1280px;
+  float: left; }
+
+.box12rnopad {
+  width: calc( ( 100% - 1280px) / 2 + 1280px - 5% );
+  min-width: 1280px;
+  float: right; }
+
+.box10lnopad {
+  width: calc( ( 100% - 1024px) / 2 + 1024px - 5% );
+  min-width: 1024px;
+  float: left; }
+
+.box10rnopad {
+  width: calc( ( 100% - 1024px) / 2 + 1024px - 5% );
+  min-width: 1024px;
+  float: right; }
+
+.box09lnopad {
+  width: calc( ( 100% - 960px) / 2 + 960px - 5% );
+  min-width: 960px;
+  float: left; }
+
+.box09rnopad {
+  width: calc( ( 100% - 960px) / 2 + 960px - 5% );
+  min-width: 960px;
+  float: right; }
+
+.box08lnopad {
+  width: calc( ( 100% - 896px) / 2 + 896px - 5% );
+  min-width: 896px;
+  float: left; }
+
+.box08rnopad {
+  width: calc( ( 100% - 896px) / 2 + 896px - 5% );
+  min-width: 896px;
+  float: right; }
+
+.box07lnopad {
+  width: calc( ( 100% - 768px) / 2 + 768px - 5% );
+  min-width: 768px;
+  float: left; }
+
+.box07rnopad {
+  width: calc( ( 100% - 768px) / 2 + 768px - 5% );
+  min-width: 768px;
+  float: right; }
+
+.box06lnopad {
+  width: calc( ( 100% - 620px) / 2 + 620px - 5% );
+  min-width: 620px;
+  float: left; }
+
+.box06rnopad {
+  width: calc( ( 100% - 620px) / 2 + 620px - 5% );
+  min-width: 620px;
+  float: right; }
+
+.box04lnopad {
+  width: calc( ( 100% - 480px) / 2 + 480px - 5% );
+  min-width: 480px;
+  float: left; }
+
+.box04rnopad {
+  width: calc( ( 100% - 480px) / 2 + 480px - 5% );
+  min-width: 480px;
+  float: right; }
+
+/*---------------------------------------------------------------------------BP1920*/
+@media (max-width: 1920px) {
+  .box19 {
+    padding-left: 5%;
+    padding-right: 5%; } }
+/*---------------------------------------------------------------------------BP1600*/
+@media (max-width: 1600px) {
+  .box16 {
+    padding-left: 5%;
+    padding-right: 5%; } }
+/*---------------------------------------------------------------------------BP1280*/
+@media (max-width: 1280px) {
+  .box12 {
+    padding-left: 5%;
+    padding-right: 5%; }
+
+  .box12r {
+    min-width: unset;
+    width: 100%;
+    padding-left: 5%; }
+
+  .box12l {
+    min-width: unset;
+    width: 100%;
+    padding-right: 5%; } }
+/*---------------------------------------------------------------------------BP1024*/
+@media (max-width: 1024px) {
+  .box10 {
+    padding-left: 5%;
+    padding-right: 5%; } }
+/*---------------------------------------------------------------------------BP1023*/
+/*---------------------------------------------------------------------------BP960*/
+@media (max-width: 960px) {
+  .box09 {
+    padding-left: 5%;
+    padding-right: 5%; } }
+/*---------------------------------------------------------------------------BP896*/
+@media (max-width: 896px) {
+  .box08 {
+    padding-left: 5%;
+    padding-right: 5%; } }
+/*---------------------------------------------------------------------------BP768*/
+@media (max-width: 768px) {
+  .box07 {
+    padding-left: 5%;
+    padding-right: 5%; } }
+/*---------------------------------------------------------------------------BP767*/
+/*---------------------------------------------------------------------------BP620*/
+@media (max-width: 620px) {
+  .box06 {
+    padding-left: 5%;
+    padding-right: 5%; } }
+/*---------------------------------------------------------------------------BP480*/
+@media (max-width: 480px) {
+  .box04 {
+    padding-left: 5%;
+    padding-right: 5%; } }
