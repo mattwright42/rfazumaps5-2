@@ -32,10 +32,10 @@ html.wf-active, html.loading-delay {
     opacity: 1; } }
 body {
   font-size: 1.6rem;
-  letter-spacing: 0.015em;
+  /* letter-spacing: 0.015em; */
   font-display: swap;
   line-height: 1.615;
-  text-align: justify;
+  /* text-align: justify; */
   text-justify: inter-ideograph;
   color: #191919;
   font-weight: 500;
