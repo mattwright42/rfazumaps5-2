@@ -228,8 +228,11 @@ span.line {
         background: url("../img/bg_maru.svg") center top/90% auto no-repeat;
         padding-top: 2.2rem; }
         .swiper_character .card .info h3 small {
+          padding-top: 20px;
           color: #9b843d;
-          font-size: 1.4rem; }
+          font-size: 1.2rem; }
+        
+        
         .swiper_character .card .info h3 strong {
           font-size: 2.2rem; }
         .swiper_character .card .info h3 i {
