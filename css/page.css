@@ -66,7 +66,7 @@ body.page main {
   background: url("../img/tit/bg_tit01.png") center/clamp(25rem, 90%, 45rem) auto no-repeat;
   min-height: 16rem; }
   .tit01 img {
-    width: 25rem;
+    width: 37rem;
     height: auto; }
 
 .tit02 {
@@ -401,9 +401,9 @@ span.line {
   .table2.w6 dd {
     width: calc(100% - 6em); }
   .table2.w4 dt {
-    width: 4em; }
+    width: 6em; }
   .table2.w4 dd {
-    width: calc(100% - 4em); }
+    width: calc(100% - 6em); }
   .table2.min_tab {
     margin-top: 2rem;
     width: 100%; }
