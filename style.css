@@ -1,9 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
 
-@import url('https://cdn.jsdelivr.net/npm/yakuhanjp@4.0.1/dist/css/yakuhanmp_s.css');
+@import url("https://cdn.jsdelivr.net/npm/yakuhanjp@4.0.1/dist/css/yakuhanmp_s.css");
 @import url("css/basic.css");
 @import url("css/box.css");
 @import url("css/page.css");
 @import url("css/header.css");
 @import url("js/swiper-bundle.min.css");
+
+@font-face {
+  font-family: "Controls";
+  src: url("./fonts/PLAYB___.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
